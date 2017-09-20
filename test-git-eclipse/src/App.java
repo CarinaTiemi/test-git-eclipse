@@ -26,18 +26,18 @@ public class App {
 
 	    // Create all the items in the bar menu
 	    MenuItem fileItem = new MenuItem(menuBar, SWT.CASCADE);
-	    fileItem.setText("File");
+	    fileItem.setText("Arquivo");
 	    fileItem.setMenu(fileMenu);
 
 	    // Create all the items in the File dropdown menu
 	    MenuItem newItem = new MenuItem(fileMenu, SWT.NONE);
-	    newItem.setText("New");
+	    newItem.setText("Cadastro");
 
 	    //  Create the first separator
 	    new MenuItem(fileMenu, SWT.SEPARATOR);
 	    
 	    MenuItem saveItem = new MenuItem(fileMenu, SWT.NONE);
-	    saveItem.setText("Save");
+	    saveItem.setText("Sair");
 
 	    shell.setMenuBar(menuBar);
 		shell.open();
